@@ -1,1 +1,5 @@
-
+provider:
+  name: aws
+  runtime: nodejs12.x
+  environment:
+    GITHUB_WEBHOOK_SECRET: secret
